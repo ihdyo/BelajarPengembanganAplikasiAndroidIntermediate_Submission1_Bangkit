@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.DetailActivity">
+
+    <ImageView
+        android:id="@+id/imgStoryThumbnail"
+        android:layout_width="match_parent"
+        android:layout_height="264dp"
+        tools:src="@color/gray_200"
+        android:transitionName="thumbnail"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/tvStoryTitle"
+        tools:text="Username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginBottom="12dp"
+        android:textSize="24sp"
+        android:transitionName="title"
+        android:textStyle="bold"
+        android:textColor="@color/gray_800"/>
+
+    <TextView
+        android:id="@+id/tvStoryDesc"
+        tools:text="@tools:sample/lorem/random"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:transitionName="description"
+        android:textSize="16sp"
+        android:textColor="@color/gray_500"
+        android:layout_marginHorizontal="24dp"/>
+
+</LinearLayout>

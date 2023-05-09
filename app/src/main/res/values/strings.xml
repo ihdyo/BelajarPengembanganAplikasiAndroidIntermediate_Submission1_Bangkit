@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Post !t</string>
+
+    <string name="not_permitted">Not Permitted</string>
+    <string name="choose_a_picture">Choose A Picture</string>
+    <string name="new_post">New Post</string>
+    <string name="error">Error</string>
+    <string name="empty_name">Empty Name</string>
+    <string name="empty_email">Empty Email</string>
+    <string name="empty_password">Empty Password</string>
+    <string name="empty_description">Empty Description</string>
+    <string name="invalid_email">Invalid Email</string>
+    <string name="success">Success</string>
+    <string name="info">Info</string>
+    <string name="unknown_state">Unknown State</string>
+    <string name="information">Information</string>
+    <string name="select_image">Select Image</string>
+    <string name="failed_to_take_picture">Failed to Take Picture</string>
+    <string name="detail">Detail</string>
+    <string name="profile">Profile</string>
+    <string name="incorrect_auth">Incorrect Auth</string>
+    <string name="logout_confirmation">Are you sure want to log out?</string>
+    <string name="yes">Yes</string>
+    <string name="cancel">Cancel</string>
+    <string name="short_password">Password cannot be less than 6 characters</string>
+    <string name="description">Description</string>
+</resources>
